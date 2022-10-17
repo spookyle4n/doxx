@@ -23,57 +23,51 @@ if doxx == 'n': webbrowser.open('https://doxbin.com/register')
 
 if doxx == 'y':
 
-reason = input("reason for dox: ")
+reason = input("\033[31m[!] reason for dox: ")
 
-picture = input("pic: ")
+full_name = input("\033[31m[!] Full name: ")
 
-full_name = input("Full name: ")
+age = input("\033[31m[!] age: ")
 
-age = input("age: ")
+dob = input("\033[31m[!] date of birth: ")
 
-dob = input("date of birth: ")
+race = input("\033[31m[!] race: ")
 
-race = input("race: ")
+picture = input("\033[31m[!] pic: ")
 
-picture = input("pic: ")
+gender = input("\033[31m[!] gender: ")
 
-gender = input("gender: ")
+weight = input("\033[31m[!] weight: ")
 
-weight = input("weight: ")
+height = input("\033[31m[!] height: ")
 
-height = input("height: ")
+provider = input("\033[31m[!] internet service provider: ")
 
-provider = input("internet service provider: ")
+code = input("\033[31m[!] area code: ")
 
-code = input("area code: ")
+phone = input("\033[31m[!] phone number: ")
 
-phone = input("phone number: ")
+address = input("\033[31m[!] Address: ")
 
-address = input("Address: ")
+postal = input("\033[31m[!] postal code: ")
 
-postal = input("postal code: ")
+email = input("\033[31m[!] email address: ")
 
-email = input("email address: ")
+ip = input("\033[31m[!] ip: ")
 
-ip = input("ip: ")
+school_address = input("\033[31m[!] school address: ")
 
-school_name = input("school name: hi")
+school_website = input("\033[31m[!] school website: ")
 
-school_address = input("school address: ")
+face_book = input("\033[31m[!] facebook: ")
 
-school_website = input("school website: ")
+tik_tok = input("\033[31m[!] tik tok: ")
 
-school_phone = input("school phone number: ")
+insta = input("\033[31m[!] instagram: ")
 
-face_book = input("facebook: ")
+dis = input("\033[31m[!] discord: ")
 
-tik_tok = input("tik tok: ")
-
-insta = input("instagram: ")
-
-dis = input("discord: ")
-
-tweet = input("twitter: ")
+tweet = input("\033[31m[!] twitter: ")
 
 print('''
 ────────────────────────────────────────────────────────────────────
@@ -85,11 +79,11 @@ print('''
 \033 └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
 ''')
 
-print("  »  Picture: "+ " " + pic) 	
+print("  »  Picture: "+ " " + picture) 	
 print("  »  Name: "+ " " + full_name)
 print('''
 \034 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-\034 |  |██░ [ username ]░█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
+\034 |  |██░ [ information ]░█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
 \034 ╚──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
 ''')
 print("  »  Age: "+ " " + age)
@@ -123,10 +117,8 @@ print('''
 
 ''')
 
-print("  »  School Name: "+ " " + school_name)
 print("  »  School Address: "+ " " + school_address)
 print("  »  School Website: "+ " " + school_website)
-print("  »  School Phone Number: "+ " " + school_phone)
 
 print('''
 
